@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.text {
+  text-align: center;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url("Desktop\ -\ Home.jpg");
+  min-height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 100000;
+  padding: 50px;
+}
+.content {
+  width: 80%;
+  margin: auto;
+  padding: 50px;
+  background-color: rgba(1, 18, 27, 0.43);
+  border-radius: 30px;
+  color: rgb(227, 227, 227);
+}
+div #quote1 {
+  padding-inline: 50px;
+}
+button {
+  width: 250px;
+  height: 80px;
+  background-color: rgb(17, 37, 80);
+  color: rgb(252, 251, 251);
+  border-radius: 10px;
+  margin-block: 30px;
+  font-weight: 900;
+  font-size: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button:hover {
+  /* background-color: rgb(163, 167, 55); */
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: Impact;
+}
+p {
+  font-size: 35px;
+  font-family: cursive;
+  margin-top: 10px;
+}
